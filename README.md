@@ -1,14 +1,13 @@
-[![npm](https://img.shields.io/npm/v/spm-loader.svg)](https://npmjs.com/package/spm-loader)
-[![npmdown](https://img.shields.io/npm/dm/spm-loader.svg)](https://npmjs.com/package/spm-loader)
-[![npm](https://img.shields.io/npm/v/spm-loader.svg)](https://npmjs.com/package/spm-loader)
-[![builds](https://img.shields.io/travis/haohao667788/spm-loader.svg)](https://travis-ci.org/haohao667788/spm-loader)
-[![cover](https://img.shields.io/coveralls/haohao667788/spm-loader.svg)](https://coveralls.io/github/haohao667788/spm-loader)
-
 <div>
 <h1>SPM Loader</h1>
 </div>
 
 **Note: based on alibaba aplus data framework, only support aplus traceless goldlog, and is strongly dependent on React !!**  
+
+[![npm](https://img.shields.io/npm/v/spm-loader.svg)](https://npmjs.com/package/spm-loader)
+[![npmdown](https://img.shields.io/npm/dm/spm-loader.svg)](https://npmjs.com/package/spm-loader)
+[![builds](https://img.shields.io/travis/haohao667788/spm-loader.svg)](https://travis-ci.org/haohao667788/spm-loader)
+[![cover](https://img.shields.io/coveralls/haohao667788/spm-loader.svg)](https://coveralls.io/github/haohao667788/spm-loader)
 
 <h2>Install</h2>
 
