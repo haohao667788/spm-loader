@@ -2,7 +2,7 @@
 <h1>SPM Loader</h1>
 </div>
 
-** Note: based on alibaba aplus data framework, only support aplus traceless goldlog, and is strongly dependent on React !!**
+** Note: based on alibaba aplus data framework, only support aplus traceless goldlog, and is strongly dependent on React !! **  
 
 <h2 align="center">Install</h2>
 
