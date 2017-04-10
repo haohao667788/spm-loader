@@ -1,11 +1,15 @@
 <div align="center">
 <h1>SPM Loader</h1>
 </div>
+
 ** Note: based on alibaba aplus data framework, only support aplus traceless goldlog, and is strongly dependent on React !!**
+
 <h2 align="center">Install</h2>
+
 ```
 npm install --save-dev spm-loader
 ```
+
 <h2 align="center">Usage</h2>
 
 ### configuration (use it combined with babel-loader)
