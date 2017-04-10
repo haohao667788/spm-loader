@@ -20,9 +20,9 @@ describe('basic tests', () => {
 		const context = {
 			_module: {
 				reasons: ['./basic.test.js'],
-				resource: './basic.test.js',
-				cacheable: function() {}
-			}
+				resource: './basic.test.js'
+			},
+			cacheable: function() {}
 		};
 		const content = 'render() { return <div /> }';
 		const res = loader.call(context, content);
