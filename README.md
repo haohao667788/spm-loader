@@ -1,3 +1,6 @@
+[![builds](https://img.shields.io/travis/haohao667788/spm-loader.svg)](https://travis-ci.org/haohao667788/spm-loader)
+[![cover](https://img.shields.io/coveralls/haohao667788/spm-loader.svg)](https://coveralls.io/github/haohao667788/spm-loader)
+
 <div>
 <h1>SPM Loader</h1>
 </div>

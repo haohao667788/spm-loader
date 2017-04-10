@@ -8,12 +8,31 @@
     "url": "git@github.com:haohao667788/spm-loader.git"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint index.js",
+    "test": "./node_modules/.bin/_mocha",
+    "ci": "npm run lint && npm run test",
+    "cover": "istanbul cover node_modules/mocha/bin/_mocha",
+    "coveralls": "npm run cover -- --report lcovonly && cat ./coverage/lcov.info | coveralls"
   },
   "dependencies": {
     "loader-utils": "^0.2.16"
   },
-  "keywords": ["webpack", "loader", "spm", "aplus"],
+  "keywords": [
+    "webpack",
+    "loader",
+    "spm",
+    "aplus"
+  ],
   "author": "ghao",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "babel-eslint": "^6.1.2",
+    "coveralls": "^2.13.0",
+    "eslint": "^3.19.0",
+    "eslint-plugin-node": "^4.2.2",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0",
+    "power-assert": "^1.4.2",
+    "should": "^11.2.1"
+  }
 }
