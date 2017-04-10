@@ -21,7 +21,7 @@ describe('basic tests', () => {
 			_module: {
 				reasons: ['./basic.test.js'],
 				resource: './basic.test.js',
-				cachable: function() {}
+				cacheable: function() {}
 			}
 		};
 		const content = 'render() { return <div /> }';
