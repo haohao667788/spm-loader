@@ -1,16 +1,16 @@
-<div align="center">
+<div>
 <h1>SPM Loader</h1>
 </div>
 
 **Note: based on alibaba aplus data framework, only support aplus traceless goldlog, and is strongly dependent on React !!**  
 
-<h2 align="center">Install</h2>
+<h2>Install</h2>
 
 ```
 npm install --save-dev spm-loader
 ```
 
-<h2 align="center">Usage</h2>
+<h2>Usage</h2>
 
 ### Configuration (use it combined with babel-loader)
 ```js
@@ -48,5 +48,5 @@ In jsx, we use `context` as the context of any iteration, so we can get properti
 #### `key`
 A module can be used many times in a parent module, but the traceless goldlog key must be unique, so `key` is used to identity a module, default is `spmKey`.
 
-<h2 align="center">License</h2>
-spm-loader is released under the [MIT License](http://opensource.org/licenses/MIT).
+<h2>License</h2>
+spm-loader is released under the [MIT License](http://opensource.org/licenses/MIT) .
