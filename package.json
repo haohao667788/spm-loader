@@ -1,12 +1,16 @@
 {
   "name": "spm-loader",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:haohao667788/spm-loader.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["webpack", "loader", "spm", "aplus"],
+  "author": "ghao",
   "license": "MIT"
 }
