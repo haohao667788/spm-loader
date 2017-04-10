@@ -20,7 +20,8 @@ describe('basic tests', () => {
 		const context = {
 			_module: {
 				reasons: ['./basic.test.js'],
-				resource: './basic.test.js'
+				resource: './basic.test.js',
+				cachable: function() {}
 			}
 		};
 		const content = 'render() { return <div /> }';
