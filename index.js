@@ -4,6 +4,7 @@ const loaderUtils = require('loader-utils');
 const REG = /spm-auto-click\s*(=\s*\{.*?\})?/g;
 const ENTRY = /(render\s*\([^\)]*\)\s*\{)/;
 const defaultOptions = {
+  goldlog: '/aliyun',
   context: 'spm_self',
   key: 'spmKey'
 };
@@ -27,9 +28,9 @@ module.exports = function(source, inputSourceMap) {
     }).replace(REG, function(all, match) {
       var key = match && match.match(/{([\w\W]+)}/);
       if (key && key[1]) {
-        return `data-spm-click={"gostr=/aliyun;locaid=d${name}"+(${options.context}.props.${options.key} || \'\')+${key[1]}}`;
+        return `data-spm-click={"gostr=${options.goldlog};locaid=d${name}"+(${options.context}.props.${options.key} || \'\')+${key[1]}}`;
       } else {
-        return `data-spm-click={"gostr=/aliyun;locaid=d${name}"+(${options.context}.props.${options.key} || \'\')}`;
+        return `data-spm-click={"gostr=${options.goldlog};locaid=d${name}"+(${options.context}.props.${options.key} || \'\')}`;
       }
     });
   }

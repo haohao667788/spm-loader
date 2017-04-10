@@ -10,6 +10,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "dependencies": {
+    "loader-utils": "^0.2.16"
+  },
   "keywords": ["webpack", "loader", "spm", "aplus"],
   "author": "ghao",
   "license": "MIT"
