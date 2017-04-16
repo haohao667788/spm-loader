@@ -29,9 +29,9 @@ module.exports = function(source) {
     }).replace(REG, function(all, match) {
       var key = match && match.match(/{([\w\W]+)}/);
       if (key && key[1]) {
-        return `data-spm-click={"gostr=${options.goldlog};locaid=d${name}"+(${options.context}.props.${options.key} || \'\')+${key[1]}}`;
+        return `data-spm-click={"gostr=${options.goldlog};locaid=d${name}"+(typeof ${options.context} !== 'undefined' ? ${options.context}.props.${options.key} || \'\' : \'\')+${key[1]}} `;
       } else {
-        return `data-spm-click={"gostr=${options.goldlog};locaid=d${name}"+(${options.context}.props.${options.key} || \'\')}`;
+        return `data-spm-click={"gostr=${options.goldlog};locaid=d${name}"+(typeof ${options.context} !== 'undefined' ? ${options.context}.props.${options.key} || \'\' : \'\')} `;
       }
     });
     return source;
